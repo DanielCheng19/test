@@ -1,0 +1,51 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.point {
+  max-width: 12px;
+  height: 12px;
+  width: 100%;
+  border-radius: 50%;
+  background-color: black;
+}
+.block {
+  width: 400px;
+  height: 500px;
+  margin: 20px auto;
+  padding: 30px;
+  box-sizing: border-box;
+  border: 1.5px solid black;
+}
+.dice {
+  border-radius: 20%;
+  box-sizing: border-box;
+  border: 2px solid black;
+  max-width: 70px;
+  height: 70px;
+  width: 100%;
+  margin: 2% 2% 2% 2%;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  max-width: 0 auto 15px;
+  margin: 1px auto 1px;
+}
+.row-block {
+  display: flex;
+  justify-content: center;
+  max-width: 280px;
+  width: 100%;
+  margin: 1px auto 1px;
+}
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.dice {
+  display: flex;
+  justify-content: space-around;
+}
